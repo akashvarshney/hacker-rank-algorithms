@@ -1,3 +1,3 @@
 # hacker-rank-algorithms
-This repositry contains the sloution of hacker rank algorithms problems
+This repository contains the solutions of hacker rank algorithms problems
 ##### Language Used : C# 
