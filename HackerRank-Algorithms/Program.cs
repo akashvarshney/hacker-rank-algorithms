@@ -12,7 +12,7 @@ namespace HackerRank_Algorithms
     {
         static void Main(string[] args)
         {
-            _GradingStudents.CallMethod();
+            _BirthdayCakeCandles.CallMethod();
         }
     }
 }
