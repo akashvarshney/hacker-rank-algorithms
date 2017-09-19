@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HackerRank_Algorithms._1.Warmup;
+using HackerRank_Algorithms._2.Implementation;
 
 namespace HackerRank_Algorithms
 {
@@ -11,7 +12,7 @@ namespace HackerRank_Algorithms
     {
         static void Main(string[] args)
         {
-            _SloveMeFirst.CallMethod();
+            _GradingStudents.CallMethod();
         }
     }
 }
