@@ -13,7 +13,7 @@ namespace HackerRank_Algorithms
     {
         static void Main(string[] args)
         {
-            _5_BreakingTheRecords.CallMethod();
+            MigratoryBirds.CallMethod();
         }
     }
 }

@@ -10,7 +10,33 @@ namespace HackerRank_Algorithms._2_Implementation
     {
         static int solve(int n, int[] s, int d, int m)
         {
-            // Complete this function
+            int startingIndex = 0;
+            int result = 0;
+            int total = 0;
+
+            for (int i = 0; i < n; i++)
+            {
+                startingIndex = i;
+
+                try
+                {
+                    for (int j = 0; j < m; j++)
+                    {
+                        total += s[startingIndex + j];
+                    }
+                }
+                catch (Exception e)
+                {
+                    break;
+                }
+
+                if (total == d)
+                {
+                    result++;
+                }
+                total = 0;
+            }
+            return result;
         }
         public static void CallMethod()
         {
