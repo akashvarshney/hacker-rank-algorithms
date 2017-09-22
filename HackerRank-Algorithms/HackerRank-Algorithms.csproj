@@ -47,6 +47,7 @@
     <Compile Include="2_Implementation\1_GradingStudents.cs" />
     <Compile Include="2_Implementation\5_BreakingTheRecords.cs" />
     <Compile Include="2_Implementation\6_BirthdayChocolate.cs" />
+    <Compile Include="2_Implementation\DayoftheProgrammer.cs" />
     <Compile Include="2_Implementation\MigratoryBirds.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
