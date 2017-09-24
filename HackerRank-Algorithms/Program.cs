@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using HackerRank_Algorithms._1.Warmup;
 using HackerRank_Algorithms._2.Implementation;
 using HackerRank_Algorithms._2_Implementation;
+using HackerRank_Algorithms._3Strings;
 
 namespace HackerRank_Algorithms
 {
@@ -13,7 +14,7 @@ namespace HackerRank_Algorithms
     {
         static void Main(string[] args)
         {
-            DayoftheProgrammer.Call();
+            SuperReducedString.Call();
         }
     }
 }
