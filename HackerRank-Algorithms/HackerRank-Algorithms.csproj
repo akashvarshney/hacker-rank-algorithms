@@ -50,6 +50,8 @@
     <Compile Include="2_Implementation\DayoftheProgrammer.cs" />
     <Compile Include="2_Implementation\MigratoryBirds.cs" />
     <Compile Include="2_Implementation\TheHurdleRace.cs" />
+    <Compile Include="3Strings\CaesarCipher.cs" />
+    <Compile Include="3Strings\CamelCase.cs" />
     <Compile Include="3Strings\SuperReducedString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

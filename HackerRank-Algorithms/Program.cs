@@ -14,7 +14,7 @@ namespace HackerRank_Algorithms
     {
         static void Main(string[] args)
         {
-            SuperReducedString.Call();
+            CaesarCipher.Call();
         }
     }
 }
