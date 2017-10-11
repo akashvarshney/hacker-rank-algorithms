@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._2_Implementation
+namespace HackerRank.Algorithms.Implementation
 {
-    public class _6_BirthdayChocolate
+    public class ClsBirthdayChocolate
     {
         static int solve(int n, int[] s, int d, int m)
         {
@@ -38,7 +34,7 @@ namespace HackerRank_Algorithms._2_Implementation
             }
             return result;
         }
-        public static void CallMethod()
+        public static void Call()
         {
             int n = Convert.ToInt32(Console.ReadLine());
             string[] s_temp = Console.ReadLine().Split(' ');

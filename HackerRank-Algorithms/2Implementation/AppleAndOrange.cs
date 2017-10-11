@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._2_Implementation
+namespace HackerRank.Algorithms.Implementation
 {
-    public class _2_AppleAndOrange
+    public class ClsAppleAndOrange
     {
-        public static void CallMethod()
+        public static void Call()
         {
             string[] tokens_s = Console.ReadLine().Split(' ');
             int s = Convert.ToInt32(tokens_s[0]);

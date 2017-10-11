@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace HackerRank.Algorithms.Warmup
 {
-    public class MiniMaxSum
+    public class ClsMiniMaxSum
     {
         public static void Call()
         {

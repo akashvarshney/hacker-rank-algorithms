@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._2_Implementation
+namespace HackerRank.Algorithms.Implementation
 {
-    public class TheHurdleRace
+    public class ClsTheHurdleRace
     {
         public static void Call()
         {

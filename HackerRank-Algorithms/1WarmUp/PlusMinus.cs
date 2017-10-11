@@ -2,7 +2,7 @@ using System;
 
 namespace HackerRank.Algorithms.Warmup
 {
-    public class PlusMinusCls
+    public class ClsPlusMinus
     {
         public static void Call()
         {

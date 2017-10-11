@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._2_Implementation
+namespace HackerRank.Algorithms.Implementation
 {
-    public class MigratoryBirds
+    public class ClsMigratoryBirds
     {
         // not the best solution
         static int migratoryBirds(int n, int[] ar)
-        {                      
+        {
             var reapetedValue = ar.GroupBy(x => x)
                 .OrderByDescending(g => g.Count())
                 .Select(g => g.Key)
@@ -18,7 +15,7 @@ namespace HackerRank_Algorithms._2_Implementation
 
             return reapetedValue;
         }
-        public static void CallMethod()
+        public static void Call()
         {
             int n = Convert.ToInt32(Console.ReadLine());
             string[] ar_temp = Console.ReadLine().Split(' ');

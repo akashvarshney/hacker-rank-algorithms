@@ -2,7 +2,7 @@
 
 namespace HackerRank.Algorithms.Warmup
 {
-    public class BirthdayCakeCandlesCls
+    public class ClsBirthdayCakeCandles
     {
         static int birthdayCakeCandles(int n, int[] ar)
         {

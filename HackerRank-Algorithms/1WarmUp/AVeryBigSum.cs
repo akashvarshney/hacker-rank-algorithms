@@ -2,7 +2,7 @@ using System;
 
 namespace HackerRank.Algorithms.Warmup
 {
-    public class AVeryBigSumCls
+    public class ClsAVeryBigSum
     {
         public static void Call()
         {

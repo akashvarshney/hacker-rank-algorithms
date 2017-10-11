@@ -2,7 +2,7 @@ using System;
 
 namespace HackerRank.Algorithms.Warmup
 {
-    public class DiagonalDifferenceCls {
+    public class ClsDiagonalDifference {
         public static void Call()
         {
             int result = 0;

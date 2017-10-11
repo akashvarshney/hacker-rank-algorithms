@@ -1,7 +1,7 @@
 using System;
 namespace HackerRank.Algorithms.Warmup
 {
-    public class CompareTheTripletsCls
+    public class ClsCompareTheTriplets
     {
         public static void Call()
         {

@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._2.Implementation
+namespace HackerRank.Algorithms.Implementation
 {
-    public class _GradingStudents
+    public class ClsGradingStudents
     {
         public static int[] Solve(int[] grades)
         {            
@@ -23,7 +19,7 @@ namespace HackerRank_Algorithms._2.Implementation
             }
             return grades;
         }
-        public static void CallMethod()
+        public static void Call()
         {
             int n = Convert.ToInt32(Console.ReadLine());
             int[] grades = new int[n];

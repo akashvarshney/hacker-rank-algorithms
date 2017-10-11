@@ -2,7 +2,7 @@ using System;
 
 namespace HackerRank.Algorithms.Warmup
 {
-    public class SimpleArraySum
+    public class ClsSimpleArraySum
     { 
         public static void Call()
         {

@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._2_Implementation
+namespace HackerRank.Algorithms.Implementation
 {
-    public class _5_BreakingTheRecords
+    public class ClsBreakingTheRecords
     {
         static int[] getRecord(int[] s)
         {
@@ -31,7 +27,7 @@ namespace HackerRank_Algorithms._2_Implementation
             return new int[] { heighestRecordCount, lowestRecordCount };
 
         }
-        public static void CallMethod()
+        public static void Call()
         {
             int n = Convert.ToInt32(Console.ReadLine());
             string[] s_temp = Console.ReadLine().Split(' ');

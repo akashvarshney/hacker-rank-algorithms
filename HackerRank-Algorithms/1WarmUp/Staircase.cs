@@ -1,7 +1,8 @@
 using System;
+
 namespace HackerRank.Algorithms.Warmup
 {
-    public class Staircase
+    public class ClsStaircase
     {
         public static void Call()
         {

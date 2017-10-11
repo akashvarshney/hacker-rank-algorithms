@@ -2,7 +2,7 @@
 
 namespace HackerRank.Algorithms.Warmup
 {
-    public class SloveMeFirstCls
+    public class ClsSloveMeFirst
     {
         public static int SloveMeFirst(int a, int b)
         {
