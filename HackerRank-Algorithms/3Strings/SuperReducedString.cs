@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._3Strings
+namespace HackerRank.Algorithms.Strings
 {
-    public class SuperReducedString
+    public class ClsSuperReducedString
     {
         static string super_reduced_string(string s)
         {

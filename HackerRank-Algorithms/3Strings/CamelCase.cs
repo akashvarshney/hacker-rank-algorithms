@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._3Strings
+namespace HackerRank.Algorithms.Strings
 {
-    public class CamelCase
+    public class ClsCamelCase
     {
         public static void Call()
         {

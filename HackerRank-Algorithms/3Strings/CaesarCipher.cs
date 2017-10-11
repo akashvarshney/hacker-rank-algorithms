@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._3Strings
+namespace HackerRank.Algorithms.Strings
 {
     //TODO: Need to revisit . Not getting solution as of now.
-    public class CaesarCipher
+    public class ClsCaesarCipher
     {
         public static void Call()
         {

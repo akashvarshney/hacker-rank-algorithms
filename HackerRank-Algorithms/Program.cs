@@ -1,12 +1,12 @@
-﻿using HackerRank_Algorithms._3Strings;
+﻿using HackerRank.Algorithms.Strings;
 
-namespace HackerRank_Algorithms
+namespace HackerRank.Algorithms
 {
     class Program
     {
         static void Main(string[] args)
         {
-            CaesarCipher.Call();
+            ClsCaesarCipher.Call();
         }
     }
 }
