@@ -1,11 +1,12 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-class Solution {
 
-    static void Main(String[] args) {
-        int n = Convert.ToInt32(Console.ReadLine());
+namespace HackerRank.Algorithms.Warmup
+{
+    public class PlusMinusCls
+    {
+        public static void Call()
+        {
+            int n = Convert.ToInt32(Console.ReadLine());
             string[] arr_temp = Console.ReadLine().Split(' ');
             int[] arr = Array.ConvertAll(arr_temp, Int32.Parse);
             // count positive ,negative and zero numbers in the array
@@ -27,8 +28,9 @@ class Solution {
                     zeroCount = zeroCount + 1;
                 }
             }
-            Console.WriteLine(String.Format("{0:N6}",positiveCount/n));
+            Console.WriteLine(String.Format("{0:N6}", positiveCount / n));
             Console.WriteLine(String.Format("{0:N6}", negativeCount / n));
             Console.WriteLine(String.Format("{0:N6}", zeroCount / n));
+        }
     }
 }

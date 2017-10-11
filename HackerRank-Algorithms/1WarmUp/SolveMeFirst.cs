@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._1.Warmup
+namespace HackerRank.Algorithms.Warmup
 {
-    public class _SloveMeFirst
+    public class SloveMeFirstCls
     {
         public static int SloveMeFirst(int a, int b)
         {
             return a + b;
         }
 
-		public static void CallMethod()
+        public static void Call()
         {
             int val1 = Convert.ToInt32(Console.ReadLine());
             int val2 = Convert.ToInt32(Console.ReadLine());

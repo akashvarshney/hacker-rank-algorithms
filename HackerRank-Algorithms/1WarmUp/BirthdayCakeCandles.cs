@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HackerRank_Algorithms._1.Warmup
+namespace HackerRank.Algorithms.Warmup
 {
-    public class _BirthdayCakeCandles
+    public class BirthdayCakeCandlesCls
     {
         static int birthdayCakeCandles(int n, int[] ar)
         {
@@ -30,8 +27,7 @@ namespace HackerRank_Algorithms._1.Warmup
             }
             return count;
         }
-
-        public static void CallMethod()
+        public static void Call()
         {
             int n = Convert.ToInt32(Console.ReadLine());
             string[] ar_temp = Console.ReadLine().Split(' ');

@@ -1,14 +1,14 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-class CompareTheTriplets {
+namespace HackerRank.Algorithms.Warmup
+{
+    public class CompareTheTripletsCls
+    {
+        public static void Call()
+        {
+            string[] tokens_a0 = Console.ReadLine().Split(' ');
+            string[] tokens_b0 = Console.ReadLine().Split(' ');
 
-    static void Main(String[] args) {
-        string[] tokens_a0 = Console.ReadLine().Split(' ');       
-        string[] tokens_b0 = Console.ReadLine().Split(' ');
-       
-         int alicepoints = 0;
+            int alicepoints = 0;
             int bobpoints = 0;
             if (tokens_a0.Length == tokens_b0.Length)
             {
@@ -24,6 +24,7 @@ class CompareTheTriplets {
                     }
                 }
             }
-        Console.WriteLine(Convert.ToString(alicepoints + " " + bobpoints));
+            Console.WriteLine(Convert.ToString(alicepoints + " " + bobpoints));
+        }
     }
 }

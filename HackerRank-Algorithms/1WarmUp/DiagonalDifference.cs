@@ -1,11 +1,11 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-class Solution {
 
-    static void Main(String[] args) {
-          int result = 0;
+namespace HackerRank.Algorithms.Warmup
+{
+    public class DiagonalDifferenceCls {
+        public static void Call()
+        {
+            int result = 0;
             int n = Convert.ToInt32(Console.ReadLine());
             int[][] a = new int[n][];
             for (int a_i = 0; a_i < n; a_i++)
@@ -21,6 +21,7 @@ class Solution {
                 DigonalSecond = DigonalSecond + a[i][n - i - 1];
             }
             result = DignalFirst > DigonalSecond ? DignalFirst - DigonalSecond : DigonalSecond - DignalFirst;
-        Console.WriteLine(result);
+            Console.WriteLine(result);
+        }
     }
 }

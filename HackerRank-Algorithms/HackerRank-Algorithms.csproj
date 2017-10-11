@@ -43,21 +43,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1_Warmup\9_BirthdayCakeCandles.cs" />
+    <Compile Include="1WarmUp\BirthdayCakeCandles.cs" />
+    <Compile Include="1WarmUp\AVeryBigSum.cs" />
+    <Compile Include="1WarmUp\CompareTheTriplets.cs" />
+    <Compile Include="1WarmUp\DiagonalDifference.cs" />
+    <Compile Include="1WarmUp\MiniMaxSum.cs" />
+    <Compile Include="1WarmUp\PlusMinus.cs" />
+    <Compile Include="1WarmUp\SimpleArraySum.cs" />
+    <Compile Include="1WarmUp\Staircase.cs" />
+    <Compile Include="1WarmUp\TimeConversion.cs" />
     <Compile Include="2_Implementation\1_GradingStudents.cs" />
+    <Compile Include="2_Implementation\2_AppleAndOrange.cs" />
     <Compile Include="2_Implementation\5_BreakingTheRecords.cs" />
     <Compile Include="2_Implementation\6_BirthdayChocolate.cs" />
     <Compile Include="2_Implementation\DayoftheProgrammer.cs" />
+    <Compile Include="2_Implementation\DivisibleSumPairs.cs" />
+    <Compile Include="2_Implementation\Kangaroo.cs" />
     <Compile Include="2_Implementation\MigratoryBirds.cs" />
     <Compile Include="2_Implementation\TheHurdleRace.cs" />
     <Compile Include="3Strings\CaesarCipher.cs" />
     <Compile Include="3Strings\CamelCase.cs" />
     <Compile Include="3Strings\SuperReducedString.cs" />
+    <Compile Include="Greedy\MinimumAbsoluteDifferenceInAnArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1_Warmup\1_SolveMeFirst.cs" />
+    <Compile Include="1WarmUp\SolveMeFirst.cs" />
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
