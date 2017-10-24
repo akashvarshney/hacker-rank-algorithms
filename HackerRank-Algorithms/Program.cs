@@ -1,4 +1,5 @@
-﻿using HackerRank.Algorithms.Strings;
+﻿using HackerRank.Algorithms.Implementation;
+using HackerRank.Algorithms.Strings;
 
 namespace HackerRank.Algorithms
 {
@@ -6,7 +7,7 @@ namespace HackerRank.Algorithms
     {
         static void Main(string[] args)
         {
-            ClsCaesarCipher.Call();
+            TwoCharacters.Call();
         }
     }
 }

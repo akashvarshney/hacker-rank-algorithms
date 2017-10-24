@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,18 +53,21 @@
     <Compile Include="1WarmUp\SimpleArraySum.cs" />
     <Compile Include="1WarmUp\Staircase.cs" />
     <Compile Include="1WarmUp\TimeConversion.cs" />
-    <Compile Include="2_Implementation\1_GradingStudents.cs" />
-    <Compile Include="2_Implementation\2_AppleAndOrange.cs" />
-    <Compile Include="2_Implementation\5_BreakingTheRecords.cs" />
-    <Compile Include="2_Implementation\6_BirthdayChocolate.cs" />
-    <Compile Include="2_Implementation\DayoftheProgrammer.cs" />
-    <Compile Include="2_Implementation\DivisibleSumPairs.cs" />
-    <Compile Include="2_Implementation\Kangaroo.cs" />
-    <Compile Include="2_Implementation\MigratoryBirds.cs" />
-    <Compile Include="2_Implementation\TheHurdleRace.cs" />
+    <Compile Include="2Implementation\ClimbingTheLeaderboard.cs" />
+    <Compile Include="2Implementation\GradingStudents.cs" />
+    <Compile Include="2Implementation\AppleAndOrange.cs" />
+    <Compile Include="2Implementation\BreakingTheRecords.cs" />
+    <Compile Include="2Implementation\BirthdayChocolate.cs" />
+    <Compile Include="2Implementation\DayoftheProgrammer.cs" />
+    <Compile Include="2Implementation\DivisibleSumPairs.cs" />
+    <Compile Include="2Implementation\Kangaroo.cs" />
+    <Compile Include="2Implementation\MigratoryBirds.cs" />
+    <Compile Include="2Implementation\TheHurdleRace.cs" />
     <Compile Include="3Strings\CaesarCipher.cs" />
     <Compile Include="3Strings\CamelCase.cs" />
+    <Compile Include="3Strings\FunnyString.cs" />
     <Compile Include="3Strings\SuperReducedString.cs" />
+    <Compile Include="3Strings\TwoCharacters.cs" />
     <Compile Include="Greedy\MinimumAbsoluteDifferenceInAnArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
