@@ -8,12 +8,21 @@ namespace HackerRank.Algorithms.Strings
     {
         private static string funnyString(string s)
         {
-            string str = string.Empty;
-            string reversStr = s.Reverse().ToString();
-            for (int i = 0; i < s.Length; i++)
+            string str = "Not Funny";
+            string reversStr = new string(s.ToCharArray().Reverse().ToArray());
+            for (int i = 1; i < s.Length; i++)
             {
-                
+                str = "Not Funny";
+                if (Math.Abs(((int)s[i] - (int)s[i - 1])) == Math.Abs(((int)reversStr[i] - (int)reversStr[i - 1])))
+                {
+                    str = "Funny";
+                }
+                else
+                {
+                    break;
+                }
             }
+
             return str;
         }
 
