@@ -66,6 +66,7 @@
     <Compile Include="3Strings\CaesarCipher.cs" />
     <Compile Include="3Strings\CamelCase.cs" />
     <Compile Include="3Strings\FunnyString.cs" />
+    <Compile Include="3Strings\Gemstones.cs" />
     <Compile Include="3Strings\SuperReducedString.cs" />
     <Compile Include="3Strings\TwoCharacters.cs" />
     <Compile Include="Greedy\MinimumAbsoluteDifferenceInAnArray.cs" />
