@@ -12,7 +12,8 @@ namespace HackerRank.Algorithms.Strings
         static int stringConstruction(string s)
         {
             // Complete this function
-            return 0;
+            string uniqueStr = new String(s.Distinct().ToArray());
+            return uniqueStr.Length;
         }
 
         public static void Call()
