@@ -7,7 +7,7 @@ namespace HackerRank.Algorithms
     {
         static void Main(string[] args)
         {
-            GameOfThrones.Call();
+            MakingAnagrams.Call();
         }
     }
 }
