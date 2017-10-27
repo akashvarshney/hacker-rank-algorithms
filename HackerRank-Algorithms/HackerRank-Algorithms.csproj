@@ -74,6 +74,7 @@
     <Compile Include="3Strings\MarsExploration.cs" />
     <Compile Include="3Strings\StringConstruction.cs" />
     <Compile Include="3Strings\SuperReducedString.cs" />
+    <Compile Include="3Strings\TheLoveLetterMystery.cs" />
     <Compile Include="3Strings\TwoCharacters.cs" />
     <Compile Include="3Strings\TwoStrings.cs" />
     <Compile Include="Greedy\MinimumAbsoluteDifferenceInAnArray.cs" />
