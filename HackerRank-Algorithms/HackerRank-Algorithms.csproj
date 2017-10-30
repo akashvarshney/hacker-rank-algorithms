@@ -62,6 +62,7 @@
     <Compile Include="2Implementation\DivisibleSumPairs.cs" />
     <Compile Include="2Implementation\Kangaroo.cs" />
     <Compile Include="2Implementation\MigratoryBirds.cs" />
+    <Compile Include="2Implementation\ServiceLane.cs" />
     <Compile Include="2Implementation\TheHurdleRace.cs" />
     <Compile Include="3Strings\Anagram.cs" />
     <Compile Include="3Strings\CaesarCipher.cs" />
