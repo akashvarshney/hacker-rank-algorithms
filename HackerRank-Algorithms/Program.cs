@@ -7,7 +7,7 @@ namespace HackerRank.Algorithms
     {
         static void Main(string[] args)
         {
-            BeautifulBinaryString.Call();
+            AlternatingCharacters.Call();
         }
     }
 }
