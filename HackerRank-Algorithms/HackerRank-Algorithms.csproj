@@ -65,6 +65,7 @@
     <Compile Include="2Implementation\ServiceLane.cs" />
     <Compile Include="2Implementation\TheHurdleRace.cs" />
     <Compile Include="3Strings\Anagram.cs" />
+    <Compile Include="3Strings\BeautifulBinaryString.cs" />
     <Compile Include="3Strings\CaesarCipher.cs" />
     <Compile Include="3Strings\CamelCase.cs" />
     <Compile Include="3Strings\FunnyString.cs" />
