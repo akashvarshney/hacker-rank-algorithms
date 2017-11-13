@@ -63,6 +63,7 @@
     <Compile Include="2Implementation\Kangaroo.cs" />
     <Compile Include="2Implementation\MigratoryBirds.cs" />
     <Compile Include="2Implementation\ServiceLane.cs" />
+    <Compile Include="2Implementation\StrangerCounter.cs" />
     <Compile Include="2Implementation\TheHurdleRace.cs" />
     <Compile Include="3Strings\AlternatingCharacters.cs" />
     <Compile Include="3Strings\Anagram.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="3Strings\HackerRankInAString.cs" />
     <Compile Include="3Strings\MakingAnagrams.cs" />
     <Compile Include="3Strings\MarsExploration.cs" />
+    <Compile Include="3Strings\SeparateTheNumbers.cs" />
     <Compile Include="3Strings\StringConstruction.cs" />
     <Compile Include="3Strings\SuperReducedString.cs" />
     <Compile Include="3Strings\TheLoveLetterMystery.cs" />
